@@ -1,0 +1,6 @@
+@NaotTLR.Api_HostAddress = http://localhost:5155
+
+GET {{NaotTLR.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

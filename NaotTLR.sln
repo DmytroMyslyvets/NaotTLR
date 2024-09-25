@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35309.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaotTLR.Api", "NaotTLR.Api\NaotTLR.Api.csproj", "{AA36BF19-4A63-42D3-9A86-2516D17F2A8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaotTLR.Core", "NaotTLR.Core\NaotTLR.Core.csproj", "{25501DA7-91C8-4354-8469-3F800132DA8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA36BF19-4A63-42D3-9A86-2516D17F2A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA36BF19-4A63-42D3-9A86-2516D17F2A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA36BF19-4A63-42D3-9A86-2516D17F2A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA36BF19-4A63-42D3-9A86-2516D17F2A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25501DA7-91C8-4354-8469-3F800132DA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25501DA7-91C8-4354-8469-3F800132DA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25501DA7-91C8-4354-8469-3F800132DA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25501DA7-91C8-4354-8469-3F800132DA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D28B9DB3-4444-4EF9-9B67-222387B3FADD}
+	EndGlobalSection
+EndGlobal
