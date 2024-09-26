@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace NaotTLR.Api.Migrations
+namespace NaotTLR.Data.Migrations
 {
     /// <inheritdoc />
     public partial class Initialmigration : Migration

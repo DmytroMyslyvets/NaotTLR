@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using NaotTLR.Api.Data;
+using NaotTLR.Data;
+using NaotTLR.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,11 +14,13 @@ builder.Services.AddOpenApi();
 builder.Services.AddSwaggerGen();
 builder.Services.AddEndpointsApiExplorer();
 
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-{
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-});
+//AddDatabaseContext
 
+builder.Services.AddApplicationEvents()
+    .AddDatabaseContext(builder.Configuration.GetConnectionString("DefaultConnection"))
+    .AddRepositories();
+
+ 
 builder.Services.AddAuthorization();
 
 builder.Services.AddIdentityApiEndpoints<IdentityUser>()
